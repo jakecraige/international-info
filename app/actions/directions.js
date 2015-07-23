@@ -5,8 +5,6 @@ var Promise = require("rsvp").Promise;
 
 module.exports = function(tokenized, gmAPI) {
   return new Promise(function(resolve, reject) {
-    var mode = tokenized.meta.via || "transit";
-    console.log("mde", mode);
     try {
       gmAPI.directions({
         origin: tokenized.meta.from,
@@ -17,8 +15,6 @@ module.exports = function(tokenized, gmAPI) {
         if (err) { return reject(err); }
 
         try {
-          console.log(res);
-          console.log("formatted", transitFormatter(res));
           return resolve(transitFormatter(res));
         } catch(e) {
           return reject(e);
