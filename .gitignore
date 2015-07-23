@@ -1,3 +1,4 @@
 node_modules
 meta
 .env
+npm-debug.log

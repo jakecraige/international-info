@@ -4,6 +4,7 @@
   "description": "Useful information at your fingertips while traveling.",
   "main": "app/index.js",
   "scripts": {
+    "start": "node app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jake Craige <james.craige+npm@gmail.com>",
