@@ -1,0 +1,203 @@
+{
+  "routes": [
+    {
+      "legs": [
+        { 
+          "arrival_time": { 
+            "text": "10:43am",
+            "time_zone": "Europe/London",
+            "value": 1437471825 
+          },
+          "departure_time": { 
+            "text": "10:31am",
+            "time_zone": "Europe/London",
+            "value": 1437471073 
+          },
+          "distance": { "text": "2.5 km", "value": 2503 },
+          "duration": { "text": "13 mins", "value": 752 },
+          "end_address": "London Eye, Lambeth, London SE1 7PB, UK",
+          "end_location": { "lat": 51.5033811, "lng": -0.1194028 },
+          "start_address": "London Bridge, London SE1, UK",
+          "start_location": { "lat": 51.50668839999999, "lng": -0.0882647 },
+          "steps": [ 
+            { 
+              "distance": { "text": "0.1 km", "value": 126 },
+              "duration": { "text": "2 mins", "value": 112 },
+              "end_location": { "lat": 51.50584000000001, "lng": -0.087819 },
+              "html_instructions": "Walk to London Bridge",
+              "polyline": { "points": "y{jyHrfPNDFBPFDB@?\\NFAFGDIDGLPB@Jg@@@\\oA" },
+              "start_location": { "lat": 51.50668839999999, "lng": -0.0882647 },
+              "steps": [ 
+                { 
+                  "distance": { "text": "47 m", "value": 47 },
+                  "duration": { "text": "1 min", "value": 33 },
+                  "end_location": { "lat": 51.5062862, "lng": -0.0884512 },
+                  "html_instructions": "Head <b>south</b> on <b>Borough High St/London Bridge/A3</b> toward <b>Duke St Hill/A200</b><div style=\"font-size:0.9em\">Continue to follow Borough High St/A3</div>",
+                  "polyline": { "points": "y{jyHrfPNDFBPFDB@?\\N" },
+                  "start_location": { "lat": 51.50668839999999, "lng": -0.0882647 },
+                  "travel_mode": "WALKING" 
+                },
+                { 
+                  "distance": { "text": "18 m", "value": 18 },
+                  "duration": { "text": "1 min", "value": 18 },
+                  "end_location": { "lat": 51.506154, "lng": -0.0883098 },
+                  "html_instructions": "Turn <b>left</b> onto <b>Duke St Hill/A200</b>",
+                  "maneuver": "turn-left",
+                  "polyline": { "points": "iyjyHxgPFAFGDIDG" },
+                  "start_location": { "lat": 51.5062862, "lng": -0.0884512 },
+                  "travel_mode": "WALKING" 
+                },
+                { 
+                  "distance": { "text": "13 m", "value": 13 },
+                  "duration": { "text": "1 min", "value": 12 },
+                  "end_location": { "lat": 51.5060595, "lng": -0.0884148 },
+                  "html_instructions": "Turn <b>right</b> onto <b>Borough High St/A3</b>",
+                  "maneuver": "turn-right",
+                  "polyline": { "points": "mxjyH|fPLPB@" },
+                  "start_location": { "lat": 51.506154, "lng": -0.0883098 },
+                  "travel_mode": "WALKING" 
+                },
+                { 
+                  "distance": { "text": "16 m", "value": 16 },
+                  "duration": { "text": "1 min", "value": 17 },
+                  "end_location": { "lat": 51.505989, "lng": -0.088216 },
+                  "html_instructions": "Turn <b>left</b>",
+                  "maneuver": "turn-left",
+                  "polyline": { "points": "{wjyHpgPJg@@@" },
+                  "start_location": { "lat": 51.5060595, "lng": -0.0884148 },
+                  "travel_mode": "WALKING" 
+                },
+                { 
+                  "distance": { "text": "32 m", "value": 32 },
+                  "duration": { "text": "1 min", "value": 32 },
+                  "end_location": { "lat": 51.50584000000001, "lng": -0.087819 },
+                  "polyline": { "points": "mwjyHjfP\\oA" },
+                  "start_location": { "lat": 51.505989, "lng": -0.088216 },
+                  "travel_mode": "WALKING" 
+                } 
+              ],
+              "travel_mode": "WALKING" 
+            },
+            { 
+              "distance": { "text": "1.8 km", "value": 1831 },
+              "duration": { "text": "2 mins", "value": 120 },
+              "end_location": { "lat": 51.503334, "lng": -0.112996 },
+              "html_instructions": "Subway towards Stanmore",
+              "polyline": { "points": "ovjyHzcPC?Ad@@\\?Z@LBP@LFr@H|@Fb@HdAB\\@\\BV@LBP@LBNHf@H`@Lv@@FLf@@JJ\\Lj@FVRt@J\\Pj@Ld@Tt@@DDVF`@DL@HHl@Fp@@FHn@?DBX@ZDp@FpB@h@@P?d@@b@Bx@@lA@\\?^NtI@f@?R@f@BhA@nABlA@d@?b@?^Ad@Et@?HCb@A`@GxA?V?NAHA`AAZ?ZG~FCbAAt@C`ACl@Af@KAGbBErFR|Fh@dFl@bFXfDj@lETfAXS" },
+              "start_location": { "lat": 51.50584000000001, "lng": -0.087819 },
+              "transit_details": { 
+                "arrival_stop": { 
+                  "location": { "lat": 51.503334, "lng": -0.112996 },
+                  "name": "Waterloo" 
+                },
+                "arrival_time": { 
+                  "text": "10:31am",
+                  "time_zone": "Europe/London",
+                  "value": 1437471060 
+                },
+                "departure_stop": { 
+                  "location": { "lat": 51.50584000000001, "lng": -0.087819 },
+                  "name": "London Bridge" 
+                },
+                "departure_time": { 
+                  "text": "10:29am",
+                  "time_zone": "Europe/London",
+                  "value": 1437470940 
+                },
+                "headsign": "Stanmore",
+                "line": { 
+                  "agencies": [ 
+                    { 
+                      "name": "Transport for London",
+                      "url": "http://www.tfl.gov.uk/modes/tube/" 
+                    } 
+                  ],
+                  "color": "#868f98",
+                  "short_name": "Jubilee",
+                  "text_color": "#ffffff",
+                  "vehicle":
+                  { 
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway.png",
+                    "local_icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/uk-london-metro.png",
+                    "name": "Subway",
+                    "type": "SUBWAY" 
+                  } 
+                },
+                "num_stops": 2 },
+                "travel_mode": "TRANSIT" 
+            },
+            { 
+              "distance": { "text": "0.5 km", "value": 546 },
+              "duration": { "text": "7 mins", "value": 433 },
+              "end_location": { "lat": 51.5033811, "lng": -0.1194028 },
+              "html_instructions": "Walk to London Eye, Lambeth, London SE1 7PB, UK",
+              "polyline": { "points": "yfjyHfaUs@`M?@tBnBnAhAERcAfGc@KQtCW|ECA" },
+              "start_location": { "lat": 51.503334, "lng": -0.112996 },
+              "steps": [ 
+                { 
+                  "distance": { "text": "0.2 km", "value": 158 },
+                  "duration": { "text": "3 mins", "value": 158 },
+                  "end_location": { "lat": 51.503586, "lng": -0.115247 },
+                  "polyline": { "points": "yfjyHfaUs@`M" },
+                  "start_location": { "lat": 51.503334, "lng": -0.112996 },
+                  "travel_mode": "WALKING" 
+                },
+                { 
+                  "distance": { "text": "0.1 km", "value": 127 },
+                  "duration": { "text": "2 mins", "value": 91 },
+                  "end_location": { "lat": 51.5026007, "lng": -0.1161875 },
+                  "html_instructions": "Head <b>southwest</b> on <b>York Rd/A3200</b> toward <b>Chicheley St</b>",
+                  "polyline": { "points": "mhjyHhoU?@tBnBnAhA" },
+                  "start_location": { "lat": 51.503586, "lng": -0.115247 },
+                  "travel_mode": "WALKING" 
+                },
+                { 
+                  "distance": { "text": "0.1 km", "value": 107 },
+                  "duration": { "text": "1 min", "value": 89 },
+                  "end_location": { "lat": 51.5029743, "lng": -0.1176122 },
+                  "html_instructions": "Turn <b>right</b> onto <b>Chicheley St</b>",
+                  "maneuver": "turn-right",
+                  "polyline": { "points": "gbjyHduUERcAfG" },
+                  "start_location": { "lat": 51.5026007, "lng": -0.1161875 },
+                  "travel_mode": "WALKING" 
+                },
+                { 
+                  "distance": { "text": "20 m", "value": 20 },
+                  "duration": { "text": "1 min", "value": 11 },
+                  "end_location": { "lat": 51.5031476, "lng": -0.1175488 },
+                  "html_instructions": "Turn <b>right</b> onto <b>Belvedere Rd</b>",
+                  "maneuver": "turn-right",
+                  "polyline": { "points": "qdjyH`~Uc@K" },
+                  "start_location": { "lat": 51.5029743, "lng": -0.1176122 },
+                  "travel_mode": "WALKING" 
+                },
+                { 
+                  "distance": { "text": "0.1 km", "value": 131 },
+                  "duration": { "text": "1 min", "value": 82 },
+                  "end_location": { "lat": 51.5033575, "lng": -0.1194099 },
+                  "html_instructions": "Turn <b>left</b> toward <b>The Queen's Walk</b>",
+                  "maneuver": "turn-left",
+                  "polyline": { "points": "uejyHt}UQtCW|E" },
+                  "start_location": { "lat": 51.5031476, "lng": -0.1175488 },
+                  "travel_mode": "WALKING" 
+                },
+                { 
+                  "distance": { "text": "3 m", "value": 3 },
+                  "duration": { "text": "1 min", "value": 2 },
+                  "end_location": { "lat": 51.5033811, "lng": -0.1194028 },
+                  "html_instructions": "Turn <b>right</b> onto <b>The Queen's Walk</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                  "maneuver": "turn-right",
+                  "polyline": { "points": "_gjyHhiVCA" },
+                  "start_location": { "lat": 51.5033575, "lng": -0.1194099 },
+                  "travel_mode": "WALKING" 
+                } 
+              ],
+              "travel_mode": "WALKING" 
+            } 
+          ],
+          "via_waypoint": [] 
+        }
+      ]
+    }
+  ]
+}
