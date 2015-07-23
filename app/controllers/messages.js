@@ -22,7 +22,7 @@ module.exports = {
       return directions(tokenized, gmAPI);
     }).then(function(textContents) {
       textContents.forEach(function(text) { resp.message(text); });
-    }, function(err) {
+    }).catch(function(err) {
       console.log(err.stack);
       resp.message('Internal server error.');
     }).finally(function() {
